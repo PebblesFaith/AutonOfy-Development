@@ -1,0 +1,19 @@
+{
+  "name": "autonofy",
+  "version": "1.0.0",
+  "description": "\"AutonOfy Inc, is an international and informational services Nonprofit organization which engages in the human resource processing services provision in data information and analytical tools software applications that are used to manage consumer debts information, risk management, and automate real-time decision-making online services and solutions.\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"AutonOfy\"",
+    "\"Development\"",
+    "\"Prototype\""
+  ],
+  "author": "Sarai Hannah Ajai",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
