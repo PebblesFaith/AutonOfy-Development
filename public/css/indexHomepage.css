@@ -186,8 +186,47 @@ body {
   font-style: italic; 
   color: rgb(107, 107, 107);
   }
+
+
+/* Main flex box container to store "Company Membership SignUp" into sub-containers. */
+  .flex-containerLearnMore1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    background-color: rgb(255, 255, 255); 
+    align-items: center;
+    justify-content: center;
+  }
   
+  /* Sub-container flex box to store "Company Membership SignUp" content. */
+  .flex-containerLearnMore1 > div {
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;   
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 19px;
+    margin-left: center;
+    border: none; 
+    font-family: 'Book Antiqua', Times, serif; 
+    font-style: italic; 
+  }
   
+  /* Assign selector button to div element for linking button5 to the "Company Membership SignUp" web page. */
+  .buttonLearnMore1 {
+      border: none;
+      background-color: inherit;
+      padding: 14px 28px;
+      font-family: Book Antiqua;
+      font-size: 16px;
+      cursor: 16px;
+      cursor: pointer;
+      display: inline-block;   
+      color: rgb(107, 107, 107);
+  }
+  
+  .buttonLearnMore1:hover {background: #eee;}
+  .buttonLearnMore1 {color: rgb(107, 107, 107);}
   
   
   
@@ -352,7 +391,7 @@ body {
   /* Sub-container flex box to store "Company Membership SignUp" content. */
   .flex-container2 > div {
     background-color: rgb(255, 255, 255);
-    width: 300px;
+    max-width: 100%;  
     margin: 10px;
     text-align: center;
     line-height: 25px;
@@ -392,7 +431,7 @@ body {
   /* Sub-container flex box to store "Consumer SignUp" content. */
   .flex-container3 > div {
     background-color: rgb(255, 255, 255);
-    width: 300px;
+    max-width: 100%;  
     margin: 10px;
     text-align: center;
     line-height: 25px;
