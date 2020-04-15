@@ -177,7 +177,7 @@ body {
   
   /* April 05, 2020 - Added textualizes formats to the "What We Do" summarized paragraph 1, class. */
   .p1 {
-  text-align: left;
+  text-align: center;
   margin: 45px;
   line-height: 20px;
   font-size: 17px;  
@@ -270,14 +270,14 @@ body {
   
   /* Create class paragraph (p3) selector in order to places custom style titles for each containers.*/
   
-  .p2 {
-  line-height: 20px;
-  font-family: 'Book Antiqua', Times, serif;
-  font-size: 18px;   
-  color: rgb(107, 107, 107); 
-  line-height: 25px;
-  text-align: left;
-  margin: 15px;
+  .p2 {   
+    line-height: 20px;
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 17px;   
+    color: rgb(107, 107, 107); 
+    line-height: 25px;
+    text-align: center;
+    margin: 15px;
   }
   
   /* Assign selector button to div element for linking button20 to the "LearnMore1" web page. */
