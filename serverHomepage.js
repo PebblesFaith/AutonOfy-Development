@@ -26,10 +26,7 @@ autonOfyApplication.listen(port, function() {
 // using the 'use' middleware function in the below specified response path is executed when a
 // clients or users' HTTP Request Methods route path matches the reponse path. 
 autonOfyApplication.use(express.static('public'));
-autonOfyApplication.use(express.static('css'));
-autonOfyApplication.use(express.static('pictures'));
 
-//
 autonOfyApplication.get('/', function(request, response) {
     response.sendFile(path.join(__dirname + '/indexHomepage.html'));
 });
