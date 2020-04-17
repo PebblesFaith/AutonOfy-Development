@@ -48,6 +48,10 @@ autonOfyApplication.get('/ContactUs.html', function(request, response) {
     response.sendFile(path.join(__dirname + '/ContactUs.html'));    
 });
 
+autonOfyApplication.get('/indexUserAgreement.html', function(request, response) {
+    response.sendFile(path.join(__dirname + '/indexUserAgreement.html'));    
+});
+
 
 
 
