@@ -187,6 +187,122 @@ font-style: italic;
 color: rgb(107, 107, 107);
 }
 
+/* April 18, 2020, create row container to houses two (2) individual columns. */
+.row7 {
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+/* April 18, 2020, create two (2) columns container inside row in order to place title description inside each container. */
+.column7 {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 2px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Book Antiqua', 'Times New Roman', Times, serif;  
+  background-color: rgb(204, 204, 204);
+  color: rgb(107, 107, 107);
+  border: 2px;
+}
+
+/* April 18, 2020, create two (2) columns containers inside the row in order to place contents inside each containers. */
+.flex-container7 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+}
+
+/* April 18, 2020, create two (2) sub-container div elements for storing two (2) main containter. */
+.flex-container7 > div {
+  background-color: rgb(255, 255, 255);
+  max-width: 100%;
+}
+
+/* April 18, 2020, create class paragraph (pColumn1) selector in order to place custom description inside the first (1st) container. */
+.pColumn1 {
+  font-family: 'Book Antiqua', 'Times New Roman', Times, serif;
+  text-align: left;
+  font-size: 15px;
+  margin: 25px;
+  line-height: 23px;
+  color: rgb(107, 107, 107);
+}
+
+/* April 18, 2020, create class paragraph (pColumn2) selector in order to place custom description inside the second (2nd) container. */
+.pColumn2 {
+  font-family: 'Book Antiqua', 'Times New Roman', Times, serif;
+  text-align: left;
+  font-size: 15px;
+  margin: 25px;
+  line-height: 23px;
+  color: rgb(107, 107, 107);
+}
+
+/* April 18, 2020, create class paragraph (paddress1) selector in order to center custom description inside the second (2nd) container. */
+.paddress1 {
+  font-family: 'Book Antiqua', 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 15px;
+  margin: 25px;
+  line-height: 23px;
+  color: rgb(107, 107, 107);
+}
+
+/* April 18, 2020, responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 1000px) {
+  .column7 {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* April 18, 2020, responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 800px) {
+  .column7 {
+    flex: 75%;
+    max-width: 75%;
+  }
+}
+
+/* April 18, 2020, responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column7 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* April 18, 2020, create customized button (buttonPrint1) to the User Agreement webpage in order for end-users to 
+   to have an options to print out User Agreeemnt documentation. */
+.buttonPrint1 {
+  border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 16px;
+    cursor: 16px;
+    cursor: pointer;
+    display: inline-block; 
+    color: rgb(107, 107, 107);   
+}
+
+.buttonPrint1:hover {background: #eee;}
+.print {color: rgb(107, 107, 107);}
+
+
+
+
+
+
 
 
 
