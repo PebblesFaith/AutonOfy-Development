@@ -191,7 +191,7 @@ color: rgb(107, 107, 107);
 .row7 {
   margin-top: 0px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   padding: 0 2px;
   align-items: center;
   justify-content: center;
@@ -200,8 +200,10 @@ color: rgb(107, 107, 107);
 
 /* April 18, 2020, create two (2) columns container inside row in order to place title description inside each container. */
 .column7 {
-  flex: 50%;
-  max-width: 50%;
+  flex-basis: auto;
+  /*flex: 50%;*/ 
+  max-width: 60%;
+  
   padding: 0 2px;
   text-align: center;
   font-size: 18px;
@@ -213,6 +215,7 @@ color: rgb(107, 107, 107);
 
 /* April 18, 2020, create two (2) columns containers inside the row in order to place contents inside each containers. */
 .flex-container7 {
+  
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -224,11 +227,12 @@ color: rgb(107, 107, 107);
 /* April 18, 2020, create two (2) sub-container div elements for storing two (2) main containter. */
 .flex-container7 > div {
   background-color: rgb(255, 255, 255);
-  max-width: 100%;
+  max-width: 100%; 
 }
 
 /* April 18, 2020, create class paragraph (pColumn1) selector in order to place custom description inside the first (1st) container. */
-.pColumn1 {
+.pColumn1 {  
+ 
   font-family: 'Book Antiqua', 'Times New Roman', Times, serif;
   text-align: left;
   font-size: 15px;
@@ -237,10 +241,59 @@ color: rgb(107, 107, 107);
   color: rgb(107, 107, 107);
 }
 
+/* April 19, 2020, create customized button (buttonLegalInfo1) to the User Agreement webpage in order for end-users to 
+   to have an options to select an area within the online User Agreement documentation. */
+   .buttonLegalInfo1 {
+    border: none;
+      background-color: inherit;
+      padding: 14px 28px;
+      font-family: 'Book Antiqua', Times, serif;
+      font-size: 16px;
+      cursor: 16px;
+      cursor: pointer;
+      display: inline-block; 
+      color: rgb(107, 107, 107);   
+  }
+  
+  .buttonLegalInfo1:hover {background: #eee;}
+  .buttonLegalInfo1 {color: rgb(107, 107, 107);}
+
+  /* April 19, 2020, create customized button (buttonProductsAgreement1) to the User Agreement webpage in order for end-users to 
+   to have an options to select an area within the online User Agreement documentation. */
+   .buttonProductsAgreement1 {
+    border: none;
+      background-color: inherit;
+      padding: 14px 28px;
+      font-family: 'Book Antiqua', Times, serif;
+      font-size: 16px;
+      cursor: 16px;
+      cursor: pointer;
+      display: inline-block; 
+      color: rgb(107, 107, 107);   
+  }
+  
+  .buttonProductsAgreement1:hover {background: #eee;}
+  .buttonProductsAgreement1 {color: rgb(107, 107, 107);}
+  
+  
+  
+
 /* April 18, 2020, create class paragraph (pColumn2) selector in order to place custom description inside the second (2nd) container. */
-.pColumn2 {
+.pColumn2 {  
   font-family: 'Book Antiqua', 'Times New Roman', Times, serif;
   text-align: left;
+  display: block;
+  font-size: 15px;
+  margin: 25px;
+  line-height: 23px;
+  color: rgb(107, 107, 107);
+}
+
+/* April 19, 2020, create class paragraph (pColumn2) selector in order to place custom description inside the second (2nd) container. */
+.solutionPurchases1 {  
+  font-family: 'Book Antiqua', 'Times New Roman', Times, serif;
+  text-align: left;
+  display: block;
   font-size: 15px;
   margin: 25px;
   line-height: 23px;
