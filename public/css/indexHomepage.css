@@ -246,8 +246,8 @@ body {
   
   /* Create three (3) columns container inside row in order to places titles inside each containers.*/
   .column7 {
-  flex: 33.33%;
-  max-width: 33.33%;
+  flex: 100.0%;
+  max-width: 100.0%;
   padding: 0 4px;
   text-align: center;
   font-size: 15px;                               
@@ -271,7 +271,7 @@ body {
   /* Create three (3) sub-containers div elements for storing container in each containers. */    
   .flex-container7 > div {
   background-color: rgb(255, 255, 255);
-  width: 375px;
+  max-width: 100%;
   margin: 10px;
   text-align: left;
   line-height: 25px;
