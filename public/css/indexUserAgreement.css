@@ -231,33 +231,58 @@ body {
 
 
 /* Create row container to house three (3) individual  columns. */ 
-.row7 {
-    margin-top: 0px;
+.flex-container-row7 {   
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;    
-    align-items: center;
-    justify-content: center;     
+    align-items: stretch;      
     background-color:rgb(255, 255, 255);
   }
   
   /* Create three (3) columns container inside row in order to places titles inside each containers.*/
-  .column7 {
-   
-      flex: 100.%;
-      max-width: 100.%;
-      padding: 0 2px;
-      text-align: center;
-      font-size: 18px;
-      font-family: 'Book Antiqua', 'Times New Roman', Times, serif;  
-      background-color: rgb(204, 204, 204);
-      color: rgb(107, 107, 107);
-      border: 2px;
+  .flex-container-row7 > div {
+    background-color: rgb(204, 204, 204);
+    color: rgb(107, 107, 107);
+    padding: 10px 18px; 
+    margin: 15px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Book Antiqua', 'Times New Roman', Times, serif;      
+  }
+
+  #titleHeader-row7 > div {
+    margin: 25px;
+    text-align: center; 
+    max-width: 150px;
+    font-size: 18px;
+    font-family: 'Book Antiqua', 'Times New Roman', Times, serif;  
+    background-color: rgb(204, 204, 204);
+    color: rgb(107, 107, 107);
+    line-height: 25px;
     
+
+    border: none;
+    background-color: inherit;
+    padding: 10px 18px;    
+    cursor: 16px;
+    cursor: pointer;
+    display: inline-block;  
+  }
+
+  #paragraphbody-row7 {
+    flex-grow: 8;
+    font-size: 16px;
+    border: 25px;
+    font-family: 'Book Antiqua', 'Times New Roman', Times, serif;  
+    background-color: rgb(255, 255, 255);
+    color: rgb(107, 107, 107);
+    text-align: left; 
+    line-height: 25px;
+    padding: 0 2px;
+
   }
   
   /* Create three (3) columns container inside row in order to places contents inside each containers.*/
-  .flex-container7 {
+  .flex-container-row7 > div {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;  
@@ -267,7 +292,7 @@ body {
     }
     
     /* Create three (3) sub-containers div elements for storing container in each containers. */    
-    .flex-container7 > div {
+    .flex-container7-row7 > div {
       background-color: rgb(255, 255, 255);
       max-width: 100%;
     }  
